@@ -1,0 +1,67 @@
+.filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex: 1 1 200px;
+  min-width: 220px;
+}
+
+.input-group .icon,
+.input-group .dropdown-icon {
+  position: absolute;
+  left: 10px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.input-group input[type="text"],
+.input-group select {
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.input-group input[type="text"]:focus,
+.input-group select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.input-group select {
+  appearance: none;
+  background-color: white;
+}
+
+.input-group .dropdown-icon {
+  right: 10px;
+  left: auto;
+  pointer-events: none;
+}
+
+.input-group input[type="range"] {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: #333;
+}
