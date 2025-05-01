@@ -116,7 +116,7 @@ const JobFormModal = ({ onClose, onCreate }) => {
               </div>
 
               <div>
-                <label className="label">Salary</label>
+                <label className="label">Experience</label>
                 <input
                   name="experience"
                   placeholder="Experience Range Ex 2-5"
